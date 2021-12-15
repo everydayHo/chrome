@@ -1,0 +1,78 @@
+.hidden {
+  display: none;
+}
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+img {
+  background-size: 100%;
+  width: 1500px;
+  height: 690px;
+  margin: 0 auto;
+}
+
+#greeting {
+  position: absolute;
+  top: 50px;
+  right: 530px;
+  font-size: 50px;
+  color: #519657;
+}
+#login-form {
+  position: absolute;
+  top: 70px;
+  right: 480px;
+}
+
+#clock {
+  position: absolute;
+  left: 50px;
+  top: 40px;
+  font-size: 60px;
+  color: #f8ffd7;
+}
+
+#quote {
+  position: absolute;
+  left: 330px;
+  bottom: 200px;
+  font-size: 40px;
+  color: #424242;
+}
+
+#todo-form {
+  position: absolute;
+  left: 600px;
+  top: 200px;
+}
+#todo-list {
+  position: absolute;
+  left: 600px;
+  top: 250px;
+  font-size: 30px;
+  color: #6d6d6d;
+  text-shadow: 1px 1px 1px #424242;
+  list-style: circle;
+}
+#weather {
+  position: absolute;
+  left: 50px;
+  top: 40px;
+  font-size: 30px;
+}
+
+#input1 {
+  width: 250px;
+  border: 3px solid;
+}
+#input2 {
+  width: 80px;
+  border: 3px solid;
+}
+#input3 {
+  width: 400px;
+  height: 25px;
+  border: 3px solid;
+}
